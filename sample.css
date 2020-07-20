@@ -1,0 +1,79 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+.searchPanel{
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.main{
+    margin-left: 280px;
+}
+
+.numberOfCourses{
+    margin-left: 320px;
+}
+
+.sideMenu{
+    background-color:green;
+    position: fixed;
+    left : 0px;
+    width: 250px;
+    height: 100%;
+    display: block;
+}
+
+.search{
+    border: 2px;
+    border-bottom: 5px black;
+}
+
+.container{
+    display: block;
+}
+
+.radioButtonCategory{
+    display: block;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.cards{
+    width:23%;
+    background-color: gray;
+    margin: 40px;
+    height: 315px;
+    display: inline-block;
+}
+.courseDate{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    display: inline-flex;
+}
+
+.courseDescription{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 5px;
+    display: inline-flex;
+}
+
+.courseTitle{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.courseCount{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.fa{
+    margin-left: -40px;
+    margin-right: 10px;
+}
+
