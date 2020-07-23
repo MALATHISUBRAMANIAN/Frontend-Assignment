@@ -1,12 +1,3 @@
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 100; /* Behind the navbar */
-    padding: 48px 0 0; /* Height of navbar */
-    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-  }
   
   #radioDiv{
     
@@ -14,30 +5,29 @@
 
   }
 
+  body{
+    background-color:gainsboro;
+  }
+
+  #naviColumns{
+    margin-left: -30px;
+  }
+
+  #sidebarMenu{
+    position: fixed;
+    left : 0px;
+    width: 330px;
+    height: 100%;
+    display: block;
+}
   form{
     display:  flex;
   }
  
-  
-  .sidebar-sticky {
-    position: fixed;
-    top: 0;
-    height: calc(100vh - 48px);
-    padding-top: .5rem;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  }
-  
-  @supports ((position: -webkit-sticky) or (position: sticky)) {
-    .sidebar-sticky {
-      position: -webkit-sticky;
-      position: sticky;
-    }
-  }
-
   #cardDiv{
-    width:23%;
-    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:25%;
+    background-color:whitesmoke;
     margin: 40px;
     height: 315px;
     display: inline-block;
@@ -48,14 +38,13 @@
     
 }
 #footerDiv{
-    margin-top: 50px;
-    margin-bottom: 30px;
+  margin-top: 60px;
     margin-left: 60px;
-    display: inline-flex;
+    display: inline-block;
 }
 
+
 #bodyDiv{
-    margin-top: 40px;
     margin-left: 60px;
     margin-right: 5px;
     display: inline-flex;
@@ -70,3 +59,12 @@
     margin-left: 320px;
 }
 
+#navRadio{
+  margin-top: 50px;
+  display: block;
+}
+
+#footPara{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
